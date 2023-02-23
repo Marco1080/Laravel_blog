@@ -3,7 +3,8 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Mostrar potsts</h1>
+    <a class="brn btn-secondary btn-sm float-right" href="{{route('admin.posts.create')}}">Nuevo post</a>
+    <h1>Listado de posts</h1>
 @stop
 
 @section('content')
