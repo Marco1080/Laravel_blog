@@ -17,8 +17,8 @@
                 <tbody>
                     @foreach ($posts as $post)
                         <tr>
-                            <td>{{$posts->id}}</td>
-                            <td>{{$posts->name}}</td>
+                            <td>{{$post->id}}</td>
+                            <td>{{$post->name}}</td>
                             <td with='10px'>
                                 <a class="btn btn-primary btn-sm" href="{{route('admin.posts.edit', $post)}}">Editar</a>
                             </td>
